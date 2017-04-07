@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<title>
+			ĐĂNG KÝ
+		</title>
+		<link rel="stylesheet" type="text/css" href="css/dangky.css"/>
+	</head>
+	
+	<body>
+		<div id="dangky">
+			<b> ĐĂNG KÝ </b>
+		</div>
+
+		<table width="550"  cellpadding="5" align=center>
+			<tr>
+				<td> 
+					<b> Tên đăng nhập: </b>
+				</td>
+				<td colspan="3"> 
+					<div id="nhap">
+						<input type="text" placeholder="Tên đăng nhập" name="tendangnhap" size="40" required="">
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<b> Mật khẩu: </b>
+				</td>
+
+				<td colspan="3">
+					<div id="nhap">
+						<input type="password" name="matkhau" size="40" placeholder="Mật khẩu" required="">
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<b> Nhập lại mật khẩu: </b>
+				</td>
+				<td colspan="3">
+					<div id="nhap">
+						<input type="password" name="nhaplai" size="40" placeholder="Nhập lại mật khẩu" required="">
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<b> Email: </b>
+				</td>
+				<td colspan="3">
+					<div id="nhap">
+						<input type="text" name="email" placeholder="Email" size="40" required="">
+					</div>
+				</td>
+			</tr>
+
+			<tr id="gioitinh">
+				<td>
+					<b> Giới tính: </b>
+				</td>
+				<td>
+					<input type="radio" value="Nam" name="gioitinh"> Nam
+				</td>
+				<td>
+					<input type="radio" value="Nữ" name="gioitinh"> Nữ
+				</td>
+				<td>
+				<input type="radio" value="Les" name="gioitinh"> Les, Gay,...
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<b> Ngày Sinh: </b>
+				</td>
+				<td>
+					<div id="ngaysinh">
+					<input type="text" name="ngay" placeholder="Ngày" size="6">
+					</div>
+				</td>
+				<td>
+					<select name="thang">
+						<option value="thang1"> Tháng 1 </option>
+						<option value="thang2"> Tháng 2 </option>
+						<option value="thang1"> Tháng 3 </option>
+						<option value="thang2"> Tháng 4 </option>
+						<option value="thang1"> Tháng 5 </option>
+						<option value="thang2"> Tháng 6 </option>
+						<option value="thang1"> Tháng 7 </option>
+						<option value="thang2"> Tháng 8 </option>
+						<option value="thang1"> Tháng 9 </option>
+						<option value="thang2"> Tháng 10 </option>
+						<option value="thang1"> Tháng 11 </option>
+						<option value="thang2"> Tháng 12 </option>
+					</select>
+				</td>
+				<td>
+					<div id="ngaysinh">
+						<input type="text" name="nam" placeholder="Năm" size="6">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<b> AVATAR </b>
+				</td>
+				<td colspan="3">
+					<input type="file" name="avatar"/>
+				</td>
+			</tr>
+		</table>
+
+		<div id="button">
+			<input type="submit" value="Đăng ký">
+			<input type="submit" value="Reset">
+		</div>
+	</body>

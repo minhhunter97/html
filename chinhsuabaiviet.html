@@ -1,0 +1,156 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8"/>
+		<link rel="stylesheet" type="text/css" href="css/chinhsuabaiviet.css"/>
+		<title>
+			CHỈNH SỬA BÀI VIẾT
+		</title>		
+	</head>
+	<body>
+		<div id="head">
+			<img src="img/logo1.jpg" title="logo-web"/>
+		</div>
+
+		<div id="MENU">
+			<ul>
+				<li><a href="#">TRANG CHỦ</a></li>
+				<li><a href="#">Tất cả bài viết</a></li>
+				<li><a href="#">Thêm bài viết</a></li>
+				<li><a href="#">Tất cả user</a></li>
+				<li><a href="#">Thêm user</a></li>
+				<li><a href="#">Thoát</a></li>
+			</ul>
+		</div>
+
+		<div id="main">
+			<div id="left-main">
+				<div id="user">
+					<img src="img/avatar.jpg" title="avatar"/>
+					<table cellpadding="2" algin="center" width="90%">
+					<tr>
+						<td><b> Tài khoản: </b></td>
+						<td> Minh Hunter </td>
+					</tr>
+					<tr>
+						<td><b> Chức vụ: </b></td>
+						<td> Tổng Giám Đốc </td>
+					</tr>
+					</table>
+					<input type="submit" value="Info">
+					<input type="submit" value="Thoát">
+				</div>
+				
+				<div id="chucnang">
+					<div id="tenchucnang">
+						<b> Đặc Quyền </b>
+					</div>
+					<div id="menuchucnang">
+						<ul>
+							<li><a href="#">Đổi pass</a></li>
+							<li><a href="#">Xem bài viết</a></li>
+							<li style="border-bottom:none"><a href="#">Lưu thông tin</a></li>
+						</ul>
+					</div>
+				</div>
+			</div>
+			<div id="chinhsuabaiviet">
+				<div id="tenbang">
+					<p><b> Chỉnh sửa Tài Khoản </b></p>
+				</div>
+				<table cellpadding="5">
+				<tr>
+				<td> 
+					<b> Tên đăng nhập: </b>
+				</td>
+				<td colspan="3"> 
+					<div id="nhap">
+						<input type="text" name="tendangnhap"  value="MinhHunter" readonly/>
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<b> Mật khẩu: </b>
+				</td>
+
+				<td colspan="3">
+					<div id="nhap">
+						<input type="password" name="matkhau" size="40" placeholder="Mật khẩu" required="">
+					</div>
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<b> Email: </b>
+				</td>
+				<td colspan="3">
+					<div id="nhap">
+						<input type="text" name="email" placeholder="Email" size="40" required="">
+					</div>
+				</td>
+			</tr>
+
+			<tr id="gioitinh">
+				<td>
+					<b> Giới tính: </b>
+				</td>
+				<td>
+					<input type="radio" value="Nam" name="gioitinh"> Nam
+				</td>
+				<td>
+					<input type="radio" value="Nữ" name="gioitinh"> Nữ
+				</td>
+				<td>
+				<input type="radio" value="Les" name="gioitinh"> Les, Gay,...
+				</td>
+			</tr>
+
+			<tr>
+				<td>
+					<b> Ngày Sinh: </b>
+				</td>
+				<td>
+					<div id="ngaysinh">
+					<input type="text" name="ngay" placeholder="Ngày" size="6">
+					</div>
+				</td>
+				<td>
+					<select name="thang">
+						<option value="thang1"> Tháng 1 </option>
+						<option value="thang2"> Tháng 2 </option>
+						<option value="thang1"> Tháng 3 </option>
+						<option value="thang2"> Tháng 4 </option>
+						<option value="thang1"> Tháng 5 </option>
+						<option value="thang2"> Tháng 6 </option>
+						<option value="thang1"> Tháng 7 </option>
+						<option value="thang2"> Tháng 8 </option>
+						<option value="thang1"> Tháng 9 </option>
+						<option value="thang2"> Tháng 10 </option>
+						<option value="thang1"> Tháng 11 </option>
+						<option value="thang2"> Tháng 12 </option>
+					</select>
+				</td>
+				<td>
+					<div id="ngaysinh">
+						<input type="text" name="nam" placeholder="Năm" size="6">
+					</div>
+				</td>
+			</tr>
+			<tr>
+				<td>
+					<b> Đường dây nóng </b>
+				</td>
+				<td colspan="3">
+					<div id="nhap">
+						<input type="text" name="SĐT" placeholder="Số Điện Thoại" value="0983970197" size="40"/>
+					</div>
+				</td>
+			</tr>
+				</table>
+			</div>
+		</div>
+	</body>
+</html>
